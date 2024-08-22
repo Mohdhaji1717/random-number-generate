@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random number generator</title>
+</head>
+<style>
+    h1{
+        font-size: 45px;
+    }
+    #generatebtn{
+        margin: 10px 0px 35px 10px;
+        font-size: 25px;
+        padding: 10px 10px;
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+    button:hover{
+        background-color: gray;
+    }
+    .result{
+        font-size: 35px;
+        font-weight: 200;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>Random number generator</h1>
+        <button id="generatebtn" onclick="generate()">Generate Random number</button>
+     <div id="result" class="result">Click the button to generate a number!</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
